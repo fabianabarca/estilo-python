@@ -21,6 +21,7 @@ Referencias:
 - [Guía de estilo](https://google.github.io/styleguide/pyguide.html) de Google para Python
 - Convenciones de documentación (*docstrings*) de Python [PEP 257](https://peps.python.org/pep-0257/)
 - Guía de estilo de documentación de Python de [NumPy](https://numpydoc.readthedocs.io/en/latest/format.html)
+- Registro de cambios con [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
 ## Formato
 
