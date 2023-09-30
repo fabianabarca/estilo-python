@@ -12,10 +12,12 @@ Esta guía de estilo aplica para proyectos bajo mi supervisión en:
 - IE0405 - Modelos Probabilísticos de Señales y Sistemas
 - IE0499 - Proyecto Eléctrico
 - Trabajo Final de Graduación de Licenciatura
+- Proyecto de investigación 322-C3-184
+- Proyecto de docencia PD-IE-472-2022
 
 **Nota**: este también un ejercicio personal de recopilar la experiencia en el desarrollo de estos proyectos, de forma que no es, naturalmente, ni exhaustivo ni infalible.
 
-Referencias:
+#### Referencias
 
 - Guía de estilo para código de Python [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 - [Guía de estilo](https://google.github.io/styleguide/pyguide.html) de Google para Python
@@ -23,6 +25,14 @@ Referencias:
 - Guía de estilo de documentación de Python de [NumPy](https://numpydoc.readthedocs.io/en/latest/format.html)
 - Registro de cambios con [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
+#### Contenido
+
+- [Formato](#formato)
+- [Documentación](#documentación)
+- [Estructura](#estructura)
+- [Control de versiones](#control-de-versiones)
+- [Principios de programación](#principios-de-programación)
+  
 ## Formato
 
 El código debe ser bonito y ordenado.
@@ -185,13 +195,23 @@ Una buena elección de nombres requiere un buen conocimiento del tema bajo estud
 
 El código debe ser minuciosamente explicado, cuando no sea explícito de la sintaxis.
 
-## Archivos y directorios
+## Estructura
 
-## Principios SOLID
+### Archivos y directorios
 
-## Filosofía
+## Control de versiones
 
-El Zen de Python
+En general:
+
+- Los proyectos serán desarrollados con Git como sistema de control de versiones.
+- El esquema de numeración de versiones será del tipo "versionado semántico" (SemVar, *semantic versioning*) como `major.minor.patch`.
+- El registro de los cambios en cada versión seguirá los consejos de [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+## Principios de programación
+
+### Principios SOLID
+
+### El Zen de Python
 
 El Zen de Python (los principios para programar en Python, accesibles a través de `import this`):
 
@@ -214,3 +234,5 @@ El Zen de Python (los principios para programar en Python, accesibles a través 
 - Si la implementación es difícil de explicar, es una mala idea.
 - Si la implementación es fácil de explicar, puede ser una buena idea.
 - Los espacios de nombres son una gran idea, ¡hagamos más de eso!
+
+### Patrones de diseño
